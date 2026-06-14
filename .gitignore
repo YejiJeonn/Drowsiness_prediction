@@ -4,25 +4,30 @@ __pycache__/
 .venv/
 venv/
 env/
-.ipynb_checkpoints/
 
-# Secrets
+# Environment / secrets
 .env
 kaggle.json
 .kaggle/
-aws_credentials.csv
 *.pem
+aws_credentials.csv
 
-# Data and model artifacts
+# Dataset
 data/raw/
 data/processed/
+
+# Model outputs
 outputs/
+outputs_*/
 runs/
 *.pt
 *.pth
 *.ckpt
 *.onnx
 
+# Notebook / OS
+.ipynb_checkpoints/
+.DS_Store
+
 # Logs
 *.log
-.DS_Store
