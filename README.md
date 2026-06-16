@@ -139,9 +139,12 @@ AWS를 사용한 이유는 다음과 같다.
 ## 5. 사용 데이터셋
 
 본 프로젝트에서는 Kaggle에서 제공되는 졸음, 눈 감김, 하품 관련 데이터셋을 사용하였다.
-- MRL 데이터셋 : https://www.kaggle.com/datasets/akashshingha850/mrl-eye-dataset
-- Eye Open Close Dataset : https://www.kaggle.com/datasets/shuvokumarbasak4004/eye-open-close
-- YawDD Dataset : https://www.kaggle.com/datasets/enider/yawdd-dataset
+- MRL 데이터셋 (Awake 42,952 / Sleepy 41,946)
+https://www.kaggle.com/datasets/akashshingha850/mrl-eye-dataset
+- Eye Open Close Dataset (눈 감은 이미지 10,000 / 눈 뜬 이미지 10,000 / 256x256 픽셀 사이즈로 조정한 눈 감은 이미지 10,000)
+https://www.kaggle.com/datasets/shuvokumarbasak4004/eye-open-close
+- YawDD Dataset (348개의 영상 데이터)
+https://www.kaggle.com/datasets/enider/yawdd-dataset
 
 | 데이터셋                   | 데이터 형태    | 사용 목적                 |
 | ---------------------- | --------- | --------------------- |
